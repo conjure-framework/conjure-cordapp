@@ -1,6 +1,8 @@
 (defproject com.getconjure/conjure-cordapp "0.1.0-SNAPSHOT"
   :description "Framework for developing CorDapps with idiomatic Clojure"
   :url "http://getconjure.com/"
+  :license {:name "Apache-2.0"
+            :url "https://opensource.org/licenses/Apache-2.0"}
   :repositories [["corda" "https://ci-artifactory.corda.r3cev.com/artifactory/corda"]
                  ["jitpack" "https://jitpack.io"]]
   :dependencies [[org.clojure/clojure "1.10.0"]
