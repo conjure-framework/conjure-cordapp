@@ -1,0 +1,3 @@
+clojure.lang.IFn.invoke
+net.corda.core.flows.FlowLogic.call
+net.corda.core.flows.FlowLogic.subFlow
