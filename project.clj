@@ -1,4 +1,4 @@
-(defproject conjure "0.1.0-SNAPSHOT"
+(defproject com.getconjure/conjure-cordapp "0.1.0-SNAPSHOT"
   :description "Framework for developing CorDapps with idiomatic Clojure"
   :url "http://getconjure.com/"
   :repositories [["corda" "https://ci-artifactory.corda.r3cev.com/artifactory/corda"]
