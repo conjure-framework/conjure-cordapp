@@ -7,4 +7,9 @@
                  [net.corda/corda-core "4.3"]
                  [net.corda/corda-node-api "4.3"]
                  [net.corda/corda "4.3"]]
-  :repl-options {:init-ns conjure.core})
+  :repl-options {:init-ns conjure.core}
+
+  ; Conjure flows framework classes have to be AOT-compiled and included in the jar
+  ; in order to avoid Kryo deserialization errors on a cold node. It may be possible
+  ; to avoid this with a custom deserializer triggering the AOT in the node JVM
+  :aot [conjure.flows])
